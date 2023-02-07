@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="google-site-verification"
+      content="SZX8EjQ4UwOA9N-oG5zpq3wCPzBq3_fcWP0U1RjIDhU"
+    >
+    <meta
+      name="description"
+      content="Portfólio de Augusto Ravazoli, desenvolvedor de software, acesse para me conhecer melhor"
+    >
+    <meta name="author" content="Augusto Ravazoli">
+    <meta name="geo.placename" content="São Paulo, Brasil">
+    <meta
+      name="keywords"
+      content="portfolio, desenvolvedor, front-end, back-end, software, programador, web, java, html, css, js"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link href="./img/favicon.svg" rel="icon">
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/header.css" rel="stylesheet">
+    <link href="./css/home.css" rel="stylesheet">
+    <link href="./css/about.css" rel="stylesheet">
+    <link href="./css/skills.css" rel="stylesheet">
+    <link href="./css/projects.css" rel="stylesheet">
+    <link href="./css/contact.css" rel="stylesheet">
+    <script defer src="./js/menu.js"></script>
+    <script defer src="./js/form.js"></script>
+    <title> Augusto Ravazoli | Desenvolvedor de Software </title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__link" href="https://augustoravazoli.github.io">
+        <img class="header__icon" src="./img/logo.svg" alt="logo" title="Logo">
+      </a>
+      <div class="header__menu-icon-container" id="menu-icon">
+        <img class="header__icon header__icon--visible" src="./img/open-menu.svg" alt="menu">
+        <img class="header__icon header__icon--hidden" src="./img/close-menu.svg" alt="menu">
+      </div>
+      <nav class="header__nav" id="nav-bar">
+        <ul class="header__menu" id="menu">
+          <li class="header__item"><a class="header__link" href="#home"> Home </a></li>
+          <li class="header__item"><a class="header__link" href="#about"> Sobre </a></li>
+          <li class="header__item"><a class="header__link" href="#skills"> Habilidades </a></li>
+          <li class="header__item"><a class="header__link" href="#projects"> Projetos </a></li>
+          <li class="header__item"><a class="header__link" href="#contact"> Contato </a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section home" id="home">
+      <h1 class="home__title"><span> Augusto </span><span> Ravazoli </span></h1>
+      <h2 class="home__subtitle"> Desenvolvedor de Software </h2>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="./img/laptop-light.svg">
+        <img class="home__image" src="./img/laptop-dark.svg" alt="laptop">
+      </picture>
+    </section>
+    <section class="section" id="about">
+      <h3 class="section__title about__title"><span> &lt; </span> Sobre <span> /&gt; </span></h3>
+      <p class="about__paragraph">
+        Olá, meu nome é <b> José Augusto Barbosa Ravazoli </b>, sou estudante de
+        desenvolvimento de sistemas no <b>SENAI</b>. Gosto de aprender e resolver problemas, um
+        desafio é sempre bem vindo. Atualmente estou estudando <b>Java</b>, 
+        mas possuo conhecimentos em <b>HTML</b>, <b>CSS</b> e <b>JavaScript</b>. 
+        Estou aberto a novas oportunidades, então sinta-se a vontade para entrar 
+        em contato comigo. &#128578;
+      </p>
+      <a class="about__curriculum" href="./doc/jose-augusto-curriculo.pdf" download>
+        <img class="about__download-image" src="./img/download.svg" alt="download"> Download CV
+      </a>
+    </section>
+    <section class="section" id="skills">
+      <h3 class="section__title"><span> &lt; </span> Habilidades <span> /&gt; </span></h3>
+      <ul class="skill-list">
+        <li class="skill-list__item"><div> HTML </div></li>
+        <li class="skill-list__item"><div> CSS </div></li>
+        <li class="skill-list__item"><div> JS </div></li>
+        <li class="skill-list__item"><div> Java </div></li>
+        <li class="skill-list__item"><div> Git </div></li>
+        <li class="skill-list__item"><div> SQL </div></li>
+      </ul>
+    </section>
+    <section class="section" id="projects">
+      <h3 class="section__title"><span> &lt; </span> Projetos <span> /&gt; </span></h3>
+      <ul class="project-list">
+        <li class="project">
+          <div class="project__icons-container">
+            <img class="project__icon" src="./img/folder.svg" alt="folder">
+            <a href="#" title="External Link">
+              <img class="project__icon" src="./img/link.svg" alt="link">
+            </a>
+          </div>
+          <article class="project__description">
+            <h4 class="project__title"> Lorem ipsum dolor sit amet </h4>
+            <p class="project__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="project__tech-list">
+              <li class="project__tech"> Lorem </li>
+              <li class="project__tech"> ipsum </li>
+              <li class="project__tech"> dolor </li>
+              <li class="project__tech"> sit </li>
+              <li class="project__tech"> amet </li>
+            </ul>
+          </article>
+        </li>
+        <li class="project">
+          <div class="project__icons-container">
+            <img class="project__icon" src="./img/folder.svg" alt="folder">
+            <a href="#" title="External Link">
+              <img class="project__icon" src="./img/link.svg" alt="link">
+            </a>
+          </div>
+          <article class="project__description">
+            <h4 class="project__title"> Lorem ipsum dolor sit amet </h4>
+            <p class="project__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="project__tech-list">
+              <li class="project__tech"> Lorem </li>
+              <li class="project__tech"> ipsum </li>
+              <li class="project__tech"> dolor </li>
+              <li class="project__tech"> sit </li>
+              <li class="project__tech"> amet </li>
+            </ul>
+          </article>
+        </li>
+        <li class="project">
+          <div class="project__icons-container">
+            <img class="project__icon" src="./img/folder.svg" alt="folder">
+            <a href="#" title="External Link">
+              <img class="project__icon" src="./img/link.svg" alt="link">
+            </a>
+          </div>
+          <article class="project__description">
+            <h4 class="project__title"> Lorem ipsum dolor sit amet </h4>
+            <p class="project__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="project__tech-list">
+              <li class="project__tech"> Lorem </li>
+              <li class="project__tech"> ipsum </li>
+              <li class="project__tech"> dolor </li>
+              <li class="project__tech"> sit </li>
+              <li class="project__tech"> amet </li>
+            </ul>
+          </article>
+        </li>
+        <li class="project">
+          <div class="project__icons-container">
+            <img class="project__icon" src="./img/folder.svg" alt="folder">
+            <a href="#" title="External Link">
+              <img class="project__icon" src="./img/link.svg" alt="link">
+            </a>
+          </div>
+          <article class="project__description">
+            <h4 class="project__title"> Lorem ipsum dolor sit amet </h4>
+            <p class="project__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="project__tech-list">
+              <li class="project__tech"> Lorem </li>
+              <li class="project__tech"> ipsum </li>
+              <li class="project__tech"> dolor </li>
+              <li class="project__tech"> sit </li>
+              <li class="project__tech"> amet </li>
+            </ul>
+          </article>
+        </li>
+        <li class="project">
+          <div class="project__icons-container">
+            <img class="project__icon" src="./img/folder.svg" alt="folder">
+            <a href="#" title="External Link">
+              <img class="project__icon" src="./img/link.svg" alt="link">
+            </a>
+          </div>
+          <article class="project__description">
+            <h4 class="project__title"> Lorem ipsum dolor sit amet </h4>
+            <p class="project__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="project__tech-list">
+              <li class="project__tech"> Lorem </li>
+              <li class="project__tech"> ipsum </li>
+              <li class="project__tech"> dolor </li>
+              <li class="project__tech"> sit </li>
+              <li class="project__tech"> amet </li>
+            </ul>
+          </article>
+        </li>
+        <li class="project">
+          <div class="project__icons-container">
+            <img class="project__icon" src="./img/folder.svg" alt="folder">
+            <a href="#" title="External Link">
+              <img class="project__icon" src="./img/link.svg" alt="link">
+            </a>
+          </div>
+          <article class="project__description">
+            <h4 class="project__title"> Lorem ipsum dolor sit amet </h4>
+            <p class="project__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="project__tech-list">
+              <li class="project__tech"> Lorem </li>
+              <li class="project__tech"> ipsum </li>
+              <li class="project__tech"> dolor </li>
+              <li class="project__tech"> sit </li>
+              <li class="project__tech"> amet </li>
+            </ul>
+          </article>
+        </li>
+      </ul>
+    </section>
+    <footer class="section" id="contact">
+      <h3 class="section__title"><span> &lt; </span> Contato <span> /&gt; </span></h3>
+      <div class="contact__container">
+        <form class="contact__form" id="form" action="https://formspree.io/f/mjvjqjga" method="POST">
+          <input class="contact__email" type="email" name="email" placeholder="Email" required>
+          <textarea 
+            class="contact__message"
+            name="message"
+            rows="3"
+            placeholder="Mensagem"
+            required
+          ></textarea>
+          <button class="contact__send-button"> Enviar </button>
+          <p class="contact__status-bar" id="status-bar"></p>
+        </form>
+        <ul class="contact__link-list">
+          <li class="contact__item">
+            <a class="contact__link" href="tel:+5516993670709">
+              <img class="contact__icon" src="./img/whatsapp.svg" alt="whatsapp">
+              <span> Whatsapp </span>
+            </a>
+          </li>
+          <li class="contact__item">
+            <a class="contact__link" href="mailto:ravazoli.augusto@gmail.com">
+              <img class="contact__icon" src="./img/email.svg" alt="email">
+              <span> Email </span>
+            </a>
+          </li>
+          <li class="contact__item">
+            <a  class="contact__link" href="https://linkedin.com/in/augusto-ravazoli">
+              <img class="contact__icon" src="./img/linkedin.svg" alt="linkedin">
+              <span> LinkedIn </span>
+            </a>
+          </li>
+          <li class="contact__item">
+            <a  class="contact__link" href="https://github.com/AugustoRavazoli">
+              <img class="contact__icon" src="./img/github.svg" alt="github">
+              <span> Github </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="contact__copy-right"> &copy; Augusto Ravazoli, 2023. </p>
+    </footer>
+  </body>
+</html>

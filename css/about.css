@@ -1,0 +1,42 @@
+.about__paragraph {
+  text-align: center;
+  line-height: 1.85;
+  margin: 2rem 0;
+  width: 312px;
+}
+
+.about__curriculum {
+  border: 3px solid var(--blue);
+  padding: 0.75rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  background-color: var(--blue);
+  transition: 0.3s transform;
+  color: var(--light-white);
+}
+
+.about__curriculum:hover {
+  transform: scale(1.2);
+}
+
+.about__download-image {
+  margin-right: 0.5rem;
+  height: 24px;
+  width: 24px;
+}
+
+@media (min-width: 1024px) {
+  .about__title {
+    margin-top: 4rem;
+  }
+
+  .about__paragraph {
+    text-align: left;
+    width: 100%;
+  }
+
+  .about__curriculum {
+    align-self: flex-start;
+  }
+}
