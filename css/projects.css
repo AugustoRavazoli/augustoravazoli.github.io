@@ -19,11 +19,11 @@
   transform: translateY(-0.5rem);
 }
 
-.project:not(:first-child) > * {
+.project:not(:first-child, :nth-child(2)) > * {
   visibility: hidden;
 }
 
-.project:not(:first-child)::after {
+.project:not(:first-child, :nth-child(2))::after {
   position: absolute;
   margin: 0;
   top: 50%;
